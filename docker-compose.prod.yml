@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+    nodejs:
+        build:
+            target: production
+        command: yarn serve
